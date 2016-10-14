@@ -1,5 +1,5 @@
-//
-//  interactive.swift
+
+  
 //  CommandLineBaseSC
 //
 //  Created by Sondra Clark on 10/10/16.
@@ -20,6 +20,7 @@ class Interactive {
             //Ask the user for input.
             io.writeMessage("\nInput?")
             currentInput = io.getInput()
+            
             
             if currentInput == "q" {
                 done = true

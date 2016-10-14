@@ -1,10 +1,10 @@
-
+//
 //  io.swift
-//  CommandLineBaseSC
+//  tipCalcReal
 //
 //  Created by Sondra Clark on 10/10/16.
 //  Copyright © 2016 Sondra Clark. All rights reserved.
-
+//
 
 import Foundation
 
@@ -17,7 +17,7 @@ class Io {
         if let string = str {
             return string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         } else {
-            return ("Invalid Input!")
+            return "Invalid Input!"
         }
     }
     
